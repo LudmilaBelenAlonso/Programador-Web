@@ -6,23 +6,62 @@
 </head>
 <body>
    
-    <script type="text/jscript">
+    <script type="text/javascript">
  
- var nombre = prompt("Por favor ingrese su nombre: ");
+ /*var nombre = prompt("Por favor ingrese su nombre: ");
  
  if (nombre){
- /*promt('HOLA ' + nombre + "!")
+ promt('HOLA ' + nombre + "!")
  }
  else 
  {
  prompt('Vuelva a escribir su nombre')
- }*/
+ }
  
  nombre == "camila" ? alert("Hola profe!") : alert("Hola " + nombre + "!"); }
  else
  {
  alert("No escribiste tu nombre");
  }
+ 
+ 
+ switch(nombre){
+    case "camila":
+        alert("Hola profe!");
+    break;
+    case "ludmila":
+        alert("Hola!!!");
+    break;
+    default:
+        alert("Hola quienseas");
+    break;
+ }
+    
+    for (var i = 0; i < 15; i++){
+        console.log("El numero es: ", i);
+    }
+    
+    
+    var listado = ["pan","leche","coca","queso"];
+    
+    for (var i = 0; i < listado.length; i++){
+        console.log("Agregue", listado[i], "a tu compra.");
+    }
+    
+    
+    
+     var listado = ["pan","leche","coca","queso"];
+    
+    for (item in listado) {
+        console.log("Agregue", listado[item], "a tu compra.");
+    }*/
+    
+    var pasos = 0
+    
+    while (pasos < 20) {
+     console.log("Diste el paso", pasos);
+     pasos++;
+    }
     
     </script> 
 </body>
